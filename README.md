@@ -84,7 +84,22 @@ Raw Monte-Carlo data is stored in `data` folder. It was processed in `process_da
 <img src="images/inv_mass.jpg"/>
 </p>
 <p align="center">
-Fig. 1. Distribution of squared invariant mass for HNLs and neutrino.
+Fig. 2. Distribution of squared invariant mass for HNLs and neutrino.
 </p>
   
   
+For classification problem Random Forest Classifier of python machine learning library `sklearn` was used. Due to a weak imbalance of classes in the dataset we used both precision-recall (PR) (Fig. 3), receiver operating characteristic (ROC) (Fig. 4). Validation was carrried out using `StratifiedKFold` cross-validation that is applicable in binary classification. Also, confidence intervals for Matthews correlation were calculated using bootstrap approach. 
+<p align="center">
+<img src="images/pr_auc.png" height="500"/>
+</p>
+<p align="center">
+Fig. 3. Precision-recall metrics for binary classification
+</p>
+<p align="center">
+<img src="images/roc_auc.png"/ height="500"/>
+</p> 
+<p align="center">
+Fig. 4. ROC metrics for binary classification
+</p>
+
+The results of Matthews correlation is rather poor: (0.56, 0.65) with confidence level of 0.05 and has to be increased by optimizing hyperparameters.
