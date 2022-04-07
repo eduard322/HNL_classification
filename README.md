@@ -81,7 +81,7 @@ Processing Monte-Carlo data and development of a classification
 Raw Monte-Carlo data is stored in `data` folder. It was processed in `process_data.ipynb` jupyter notebook. As a result, 5 features were used to create a dataset for classification problem: an angle between muon and pion, a pseudorapidity of the system muon+pion, a transversal momentum, a sum of pseudorapidities of 2 particles, and a sum Pz for them. The energy was not used due to complexety of the energy reconstruction of muons. If we define energy, we would calculate a squared invariant mass of the system and easily recognise what was a primary particle. Fig. 2 shows the distribution of the squared invariant mass. 
  </p>
 <p align="center">
-<img src="images/inv_mass.jpg" height="350" />
+<img src="images/inv_mass.jpg"/>
 </p>
 <p align="center">
 Fig. 1. Distribution of squared invariant mass for HNLs and neutrino.
