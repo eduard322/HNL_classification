@@ -48,7 +48,7 @@ Simulation of HNL and neutrino events
 <h3>
 HNL simulation
 </h3>
-A detailed Monte-Carlo simulation suite for the SHiP experiment, FairShip, was developed based on the FairRoot software framework. In FairShip simulations primary collisions of protons are generated with Pythia 8 and the subsequent propagation and interactions of particles simulated with GEANT4. Neutrino interactions are simulated with GENIE; heavy flavour production and inelastic muon interactions with Pythia 6 and GEANT4. Secondary heavy flavour production in cascade interactions of hadrons originated by the initial proton collision [64] is also taken into account, which leads to an increase of the overall HNL production fraction. The SHiP detector response is simulated using GEANT4. O(1) of HNL events were simulated totally.
+A detailed Monte-Carlo simulation suite for the SHiP experiment, FairShip, was developed based on the FairRoot software framework. In FairShip simulations primary collisions of protons are generated with Pythia8 and the subsequent propagation and interactions of particles simulated with GEANT4. Neutrino interactions are simulated with GENIE; heavy flavour production and inelastic muon interactions with Pythia 6 and GEANT4. Secondary heavy flavour production in cascade interactions of hadrons originated by the initial proton collision is also taken into account, which leads to an increase of the overall HNL production fraction. The SHiP detector response is simulated using GEANT4. O(1) of HNL events were simulated totally.
 
 <h3>
 Neutrino simulation
